@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dynamický formulář</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="form.js" defer></script>
+</head>
+
+<body>
+
+  <form action="" method="post">
+    <div class="row">
+      <label for="jmeno">Jméno</label>
+      <input type="text" name="jmeno" id="jmeno">
+      <label for="druh">Druh</label>
+      <select name="druh" id="druh">
+        <option value="100">Základní</option>
+        <option value="0">Důchodce (70+)</option>
+        <option value="50">Student (26-)</option>
+        <option value="25">IN 25</option>
+      </select>
+    </div>
+    <div class="add">
+      <img src="./icons/plus-84.png" alt="Přidat cestujícího">
+    </div>
+    <div class="row">
+      <input type="submit" value="Odeslat">
+    </div>
+  </form>
+
+</body>
+
+
+</html>
+
